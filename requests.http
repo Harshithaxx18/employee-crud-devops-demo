@@ -1,0 +1,11 @@
+### Create an employee
+POST http://localhost:8080/employees
+Content-Type: application/json
+
+{
+  "name": "Harshitha",
+  "department": "Engineering"
+}
+
+### Get employee
+GET http://localhost:8080/employees/1
